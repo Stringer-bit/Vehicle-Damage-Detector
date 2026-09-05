@@ -1,12 +1,12 @@
 #MY CONTRIBUTION:
 
 I was responsible for
--Image Processing
-  -Converting images into greyscale
-  -Converting uploaded images into SLIC segments that can be used as nodes for a Region Adjacency Graph
-  -Creating relationships between segments based on differences and similarity in segment features (intensity , gradient)
-  -Calculating Damage likelihood based on feature differences between segments
-  -Creating the GUI
+Image Processing
+  Converting images into greyscale
+  Converting uploaded images into SLIC segments that can be used as nodes for a Region Adjacency Graph
+  Creating relationships between segments based on differences and similarity in segment features (intensity , gradient)
+  Calculating Damage likelihood based on feature differences between segments
+  Creating the GUI
 
 #TECHNOLOGIES:
   -Java
