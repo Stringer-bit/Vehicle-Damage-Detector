@@ -9,7 +9,9 @@ Image Processing
   Creating the GUI
 
 #TECHNOLOGIES:
-  -Java
+-Java
+-JavaFX
+
   -JavaFX
   -SLIC Segmentation
   -Region Adjacency Graphs
