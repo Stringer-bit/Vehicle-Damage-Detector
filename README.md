@@ -1,14 +1,40 @@
-CYPHER MINI PROJECT
+#MY CONTRIBUTION:
 
-README
+I was responsible for
+-Image Processing
+  -Converting images into greyscale
+  -Converting uploaded images into SLIC segments that can be used as nodes for a Region Adjacency Graph
+  -Creating relationships between segments based on differences and similarity in segment features (intensity , gradient)
+  -Calculating Damage likelihood based on feature differences between segments
+  -Creating the GUI
 
-Link to Youtube Video: https://youtu.be/e2nbtlAw3e0
+#TECHNOLOGIES:
+  -Java
+  -JavaFX
+  -SLIC Segmentation
+  -Region Adjacency Graphs
+  -GraphStream
+  
+#FEATURES
+- Image loading and preprocessing
+- Grayscale conversion
+- SLIC-based image segmentation
+- Region Adjacency Graph construction
+- Patch feature extraction
+- Damage anomaly detection
+- Visualisation of detected regions
 
-Our project implements the graph stream library so working with it may be taxing
+#RESULTS
+<img width="1200" height="487" alt="image" src="https://github.com/user-attachments/assets/144a82ca-fbf7-43ba-8c2d-fa0705595548" />
+<img width="1157" height="492" alt="image" src="https://github.com/user-attachments/assets/c317944a-00f1-4efb-a76d-7e2d6032cc11" />
 
-For your convenience we uploaded an image for you can use in the project folder titled "Test Image.jpeg" and if you intend to add other images please ensure they are jpg or jpeg
+#FUTURE IMPROVEMENTS
+- Improve damage classification accuracy
+- Train a machine-learning classifier
+- Improve segmentation around complex damage
 
-INSTRUCTIONS:
+
+#INSTRUCTIONS TO RUN:
 
 CMD:
 
